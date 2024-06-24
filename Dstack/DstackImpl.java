@@ -40,7 +40,7 @@ public class DstackImpl implements Dstack{
         stack[top-1]=0;
         top--;
 
-        if((top/2)<max){
+        if(top<max/2){
             shrink();
         }
         System.out.println("POPPING: "+tr);
@@ -71,8 +71,9 @@ public class DstackImpl implements Dstack{
         int middle;
         if(top%2==0){
         middle=top/2;
+        }else {
+            middle = top / 2 - 1;
         }
-        middle=top/2-1;
         System.out.println("MID: "+stack[middle]);
     }
 

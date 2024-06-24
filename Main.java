@@ -18,9 +18,10 @@ public class Main {
         dst.push(20);
         dst.push(30);
         dst.push(40);
-        dst.push(40);
-        dst.push(40);
-        dst.push(40);
+        dst.push(45);
+        dst.push(41);
+        dst.push(42);
+        dst.push(43);
         dst.show();
         dst.mid();
         System.out.println("PEEK: "+dst.peek());
