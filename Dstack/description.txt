@@ -1,0 +1,2 @@
+This feature will replicate the stack Data structure but with the middle element functionality
+and is implemented using arrays
